@@ -1,0 +1,4 @@
+/* Market — familia tipográfica oficial */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Roboto+Mono:wght@400;500&display=swap');
+
+body { font-family: 'Archivo', system-ui, -apple-system, sans-serif; }

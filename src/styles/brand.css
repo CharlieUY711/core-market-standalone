@@ -1,0 +1,100 @@
+/* ═══════════════════════════════════════════════
+   MARKET — Design Tokens v3.0  (Manual de Marca v1.0)
+   Rebrand: azul madre multirrubro · Archivo · Junio 2026
+   Se conservan los nombres v2 como alias para no romper.
+   ═══════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Roboto+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ── Marca madre ───────────────────────────── */
+  --brand-madre:        #3D5689;
+  --brand-madre-hover:  #46639B;
+  --brand-navy:         #0D2B55;
+  --brand-navy-field:   #314B6E;
+  --madre-tint:         #EBEFF6;
+
+  /* ── Verticales insignia ───────────────────── */
+  --tech:       #1C6E86;  --tech-tint:       #E6F0F3;
+  --home:       #A85636;  --home-tint:       #F4ECE8;
+  --vestimenta: #7E3A70;  --vestimenta-tint: #F2EAF0;
+  --entret:     #C2611F;  --entret-tint:     #F8EEE4;
+  --servicios:  #50617F;
+
+  /* ── Transversales ─────────────────────────── */
+  --second:  #2E7D57;  --second-tint:  #EAF3EE;  --second-field:  #256647;
+  --gourmet: #9B3326;  --gourmet-tint: #F5EAE7;  --gourmet-field: #822A20;
+
+  /* ── Neutrales ─────────────────────────────── */
+  --ink:     #1C1B19;
+  --text:    #34322C;
+  --text-2:  #56544C;
+  --mute:    #8A8678;
+  --border:  #E4E1D8;
+  --divider: #ECEAE2;
+  --canvas:  #F0EFEA;
+  --surface: #F6F4EF;
+  --card:    #FFFFFF;
+  --paper:   #D9D6CC;
+
+  /* ── Alias compatibilidad v2 (mismos nombres, valores Market) ── */
+  --brand-primary:        #3D5689;
+  --brand-primary-dark:   #0D2B55;
+  --brand-primary-light:  rgba(61,86,137,.1);
+  --brand-secondary:      #0D2B55;
+  --brand-secondary-dark: #081C38;
+  --brand-accent:         #3D5689;   /* sin dorado: acento = madre */
+  --brand-accent-dark:    #46639B;
+  --brand-accent-light:   rgba(61,86,137,.1);
+
+  --gray-50:  #F6F4EF;
+  --gray-100: #F0EFEA;
+  --gray-200: #E4E1D8;
+  --gray-400: #8A8678;
+  --gray-600: #56544C;
+  --gray-800: #34322C;
+  --gray-900: #1C1B19;
+
+  /* ── Semánticos ────────────────────────────── */
+  --color-success:  #2E7D57;
+  --color-warning:  #C2611F;
+  --color-danger:   #B23B30;
+  --color-alert:    #B23B30;
+  --color-info:     #1C6E86;
+
+  /* ── Tipografía ────────────────────────────── */
+  --font-base:    'Archivo', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Archivo Black', 'Archivo', sans-serif;
+  --font-mono:    'Roboto Mono', ui-monospace, monospace;
+  --fw-normal: 400; --fw-medium: 500; --fw-bold: 600; --fw-black: 700;
+
+  /* ── Espaciado base 8px ────────────────────── */
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+  --space-5: 24px; --space-6: 32px; --space-7: 48px; --space-8: 64px;
+
+  /* ── Radios (spec: input 7 · control 9 · card 14) ── */
+  --r-input:   7px;
+  --r-control: 9px;
+  --r-card:    14px;
+  --radius-sm:   7px;   /* inputs / botones */
+  --radius-md:   14px;  /* cards            */
+  --radius-lg:   14px;
+  --radius-xl:   16px;
+  --radius-pill: 100px;
+
+  /* ── Sombras ───────────────────────────────── */
+  --sh-subtle:  0 1px 3px rgba(0,0,0,.05);
+  --sh-card:    0 8px 24px rgba(0,0,0,.08);
+  --sh-elev:    0 18px 50px rgba(0,0,0,.16);
+  --shadow-sm:   0 1px 3px rgba(0,0,0,.05);
+  --shadow-md:   0 8px 24px rgba(0,0,0,.08);
+  --shadow-lg:   0 18px 50px rgba(0,0,0,.16);
+  --shadow-card: 0 8px 24px rgba(0,0,0,.08);
+
+  /* ── Contrato runtime --c-* ────────────────── */
+  --c-primary: #3D5689; --c-primary-hover: #46639B; --c-on-primary: #FFFFFF;
+  --c-accent: #2E7D57;  --c-bg: #F0EFEA; --c-bg-surface: #F6F4EF; --c-bg-elev: #FFFFFF;
+  --c-text: #1C1B19; --c-text-2: #56544C; --c-text-3: #8A8678;
+  --c-border: #E4E1D8; --c-border-strong: #D9D6CC;
+  --c-success: #2E7D57; --c-warning: #C2611F; --c-danger: #B23B30; --c-info: #1C6E86;
+}
